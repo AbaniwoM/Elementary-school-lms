@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { loadUserAsync } from '../redux/reducers/quotes/users.thunks';
+import { loadUserAsync } from '../redux/reducers/users/users.thunks';
 
 const Maths = () => {
   const dispatch = useDispatch()

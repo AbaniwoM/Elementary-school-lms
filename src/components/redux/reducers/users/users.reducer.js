@@ -1,7 +1,7 @@
 import actionTypes from './users.actionTypes';
 import initialStates from './users.initialStates';
 
-const userReducer = (state = initialStates, { type, payload} ) => {
+const userReducer = (state = initialStates, { type, payload } ) => {
     switch (type) {
         case actionTypes.USERS_LOAD_START:
             return {
