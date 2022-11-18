@@ -1,5 +1,5 @@
 export default {
     isLoading: false,
-    quotes: null,
+    users: null,
     errorMessage: null,
 }

@@ -4,9 +4,9 @@ const usersLoadStart = () => ({
     type: actionTypes.USERS_LOAD_START
 });
 
-const usersLoadSuccess = (quotes:any) => ({
+const usersLoadSuccess = (users:any) => ({
     type: actionTypes.USERS_LOAD_SUCCESS,
-    payload: quotes
+    payload: users
 });
 
 const usersLoadError = (errorMessage:any) => ({
