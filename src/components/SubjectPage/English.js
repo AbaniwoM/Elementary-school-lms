@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Maths extends Component {
+class English extends Component {
 
   constructor(props) {
     super(props);
@@ -32,7 +32,7 @@ class Maths extends Component {
     else {
       return (
         <div className="App">
-          Names of Maths Students:
+          Names of English Students:
           <ul>
             {items.map(item => (
               <li key={item.id}>
@@ -47,4 +47,4 @@ class Maths extends Component {
   }
 }
 
-export default Maths;
+export default English;

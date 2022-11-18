@@ -27,6 +27,9 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
+## Error
+Elementary Science subject page encountered a 404 error in displaying data in fake API. Still looking into it!
+
 ## Contributor
 
 Michael Abaniwo
